@@ -2,12 +2,14 @@
     <div>
         <headerComponent></headerComponent>
         <router-view></router-view>
+        <player-component></player-component>
         <footer-component></footer-component>
     </div>
 </template>
 <script>
     import headerComponent from './components/header.vue'
     import footerComponent from './components/footer.vue'
+    import playerComponent from './components/player.vue'
 
 
     export default {
@@ -18,7 +20,8 @@
         },
         components: {
             headerComponent,
-            footerComponent
+            footerComponent,
+            playerComponent
         },
 
         methods: {

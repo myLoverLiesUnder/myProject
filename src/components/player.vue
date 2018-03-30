@@ -1,7 +1,9 @@
 <template>
     <div class="g-btmbar">
         <div class="m-playbar">
+            <div>
 
+            </div>
         </div>
     </div>
 </template>
